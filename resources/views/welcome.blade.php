@@ -80,9 +80,11 @@
         <H1>K. M. Arafat Islam</H1>
         <h3>Expert in Web Development</h3>
         <button>Book a Free Call</button>
+        <h1>Check</h1>
     </div>
     <div >
         <img class="banner_img" src="{{asset('assets/hg.png')}}" alt="">
+        
 
     </div>
 </div>
