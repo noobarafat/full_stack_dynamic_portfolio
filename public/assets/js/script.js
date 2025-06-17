@@ -11,3 +11,18 @@ document.querySelectorAll('a').forEach(varName => {
         alert(this.innerHTML)
     }
 });
+
+
+document.querySelectorAll('button').forEach(varName => {
+    varName.onclick = function() {
+        document.querySelector('.changed').innerHTML = `
+                <p> Inner HTML </p>
+
+                `;
+
+        img = document.querySelector("img");
+        img.src = "https://www.famousbirthdays.com/headshots/tareq-salameh-1.jpg";
+
+
+    };
+});

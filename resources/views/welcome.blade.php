@@ -80,7 +80,7 @@
 <div class="banner">
     <div class="banner_text">
         <H1>K. M. Arafat Islam</H1>
-        <h3>Expert in Web Development</h3>
+        <h3>Expert in Nothing</h3>
         <button>Book a Free Call</button>
         <h1>Check</h1>
     </div>
@@ -88,10 +88,12 @@
         <img class="banner_img" src="{{asset('assets/hg.png')}}" alt="">
     </div>
 </div>
-<div>
+<div class="center-element">
+    <div class="changed"></div>
+    <img src="https://www.earthna.qa/sites/default/files/styles/summit_speakers/public/speakers/images/2025-03/M%20Yunus.jpeg?itok=GN6uMv0_" alt="">
     <button>
     Click to change text
-</button>
+    </button>
 </div>
 
 <script src="{{asset('assets/js/script.js')}}"></script>
