@@ -67,11 +67,13 @@
   <nav class="navbar">
 
     <h2 class="logo">ARAFAT</h2>
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
+    <ul class="nav-links navbar">
+      <li><a href="#" >Home</a></li>
+      <li><a href="#" >About Me</a></li>
+      <li><a href="#" >Services</a></li>
+      <li><a href="#" >Contact</a></li>
+      <li><a href="#" >Money</a></li>
+      <li><a href="#" >Honey</a></li>
     </ul>
   </nav>
     
@@ -84,10 +86,14 @@
     </div>
     <div >
         <img class="banner_img" src="{{asset('assets/hg.png')}}" alt="">
-        
-
     </div>
 </div>
+<div>
+    <button>
+    Click to change text
+</button>
+</div>
 
+<script src="{{asset('assets/js/script.js')}}"></script>
 </body>
 </html>
