@@ -13,16 +13,16 @@ document.querySelectorAll('a').forEach(varName => {
 });
 
 
-document.querySelectorAll('button').forEach(varName => {
-    varName.onclick = function() {
-        document.querySelector('.changed').innerHTML = `
-                <p> Inner HTML </p>
+// document.querySelectorAll('button').forEach(varName => {
+//     varName.onclick = function() {
+//         document.querySelector('.changed').innerHTML = `
+//                 <p> Inner HTML </p>
 
-                `;
+//                 `;
 
-        img = document.querySelector("img");
-        img.src = "https://hips.hearstapps.com/hmg-prod/images/cristiano-ronaldo-of-portugal-during-the-uefa-nations-news-photo-1748359673.pjpeg?crop=0.610xw:0.917xh;0.317xw,0.0829xh&resize=640:*";
+//         img = document.querySelector("img");
+//         img.src = "https://hips.hearstapps.com/hmg-prod/images/cristiano-ronaldo-of-portugal-during-the-uefa-nations-news-photo-1748359673.pjpeg?crop=0.610xw:0.917xh;0.317xw,0.0829xh&resize=640:*";
 
 
-    };
-});
+//     };
+// });
