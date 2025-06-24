@@ -21,7 +21,7 @@ document.querySelectorAll('button').forEach(varName => {
                 `;
 
         img = document.querySelector("img");
-        img.src = "https://www.famousbirthdays.com/headshots/tareq-salameh-1.jpg";
+        img.src = "https://hips.hearstapps.com/hmg-prod/images/cristiano-ronaldo-of-portugal-during-the-uefa-nations-news-photo-1748359673.pjpeg?crop=0.610xw:0.917xh;0.317xw,0.0829xh&resize=640:*";
 
 
     };
