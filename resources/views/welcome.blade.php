@@ -10,34 +10,216 @@
   
 </head>
 <body>
-
-<nav class="navbar">
-
-    <img class="logo_image" src="{{asset('assets/logo.png')}}" alt="">
-    <ul class="nav-links navbar">
-      <li><a href="#" >Home</a></li>
-      <li><a href="#" >About Me</a></li>
-      <li><a href="#" >Education</a></li>
-      <li><a href="#" >Services</a></li>
-      <li><a href="#" >Contact</a></li>
-   
-    </ul>
-</nav>
-    
 <!-- Banner Section -->
- <section class="banner">
-    <div class="banner_text">
-        <H1>K. M. Arafat Islam</H1>
-        <h3>Welcome! Dive in to explore my world of design, creativity, and passion—where every pixel and word is crafted just for you.</h3>
-        <button>Book a Free Call</button>
+<<section class="hero">
+    <div class="container">
+      <div class="hero-left">
+        <h1>Hello, I'm<br><span>K. M. Arafat Islam</span></h1>
+        <p>
+          I'm a Freelance <b>UI/UX Designer</b> and <b>Developer</b> based in Dhaka, Bangladesh.  
+          I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
+        </p>
+        <a href="#" class="say-hello">Say Hello!</a>
+
+        <div class="stats">
+          <div class="stat-card">
+            <h2>15 Y.</h2>
+            <p>Experience</p>
+          </div>
+          <div class="stat-card">
+            <h2>250+</h2>
+            <p>Project Completed</p>
+          </div>
+          <div class="stat-card">
+            <h2>58</h2>
+            <p>Happy Client</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+      <img class="banner_img" src="{{asset('assets/hg.png')}}" alt="">
+      </div>
     </div>
-    <div >
-        <img class="banner_img" src="{{asset('assets/hg.png')}}" alt="">
+  </section>
+
+
+<!-- Download CV  -->
+<section class="about">
+    <div class="about-card">
+      <div class="about-left">
+        <div class="image-wrapper">
+      <img class="banner_img" src="{{asset('assets/hg.png')}}" alt="">
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in active"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <h2>I am Professional User<br>Experience Designer</h2>
+        <p>
+          I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences.
+        </p>
+        <p>
+          I design and develop services for customers specializing creating stylish, modern websites, web services.
+        </p>
+
+        <div class="btn-group">
+          <a href="#" class="btn primary">My Project</a>
+          <a href="#" class="btn outline"><i class="fas fa-download"></i> Download CV</a>
+        </div>
+      </div>
     </div>
+  </section>
 
- </section>
+  <!-- Work Process -->
 
+   <section class="work-process">
+    <div class="container">
+      <div class="left">
+        <h2>Work Process</h2>
+        <p>
+          Our workflow is built on a foundation of deep research, thoughtful analysis, creative design, and seamless execution. Each step is tailored to ensure success and satisfaction.
+        </p>
+        <p>
+          From the initial idea to the final launch, we collaborate with our clients to deliver results that truly make an impact.
+        </p>
+      </div>
 
+      <div class="right">
+        <div class="card">
+          <div class="icon purple"><span>📅</span></div>
+          <div class="text">
+            <h3>1. Research</h3>
+            <p>We begin by understanding your goals, audience, and market to gather all the insights needed to create an effective solution.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon purple"><span>📈</span></div>
+          <div class="text">
+            <h3>2. Analyze</h3>
+            <p>We break down the data, evaluate challenges, and identify opportunities to plan a strategic direction for the project.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon purple"><span>✏️</span></div>
+          <div class="text">
+            <h3>3. Design</h3>
+            <p>Our creative team crafts intuitive and visually appealing designs that enhance user experience and align with your brand.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon purple"><span>🚀</span></div>
+          <div class="text">
+            <h3>4. Launch</h3>
+            <p>After thorough testing, we launch your product confidently, ensuring everything runs smoothly and delivers value from day one.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio-section">
+    <div class="container">
+      <div class="header">
+        <h2>Portfolio</h2>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, <br>
+          but the majority have suffered alteration.
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Portfolio Card -->
+        <div class="card">
+          <img src="https://via.placeholder.com/400x220" alt="Portfolio 1" />
+          <div class="content">
+            <p class="label">UI/UX DESIGN</p>
+            <h3>Product Admin Dashboard</h3>
+            <p class="desc">
+              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+            </p>
+            <a href="#" class="btn">Case Study →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/400x220" alt="Portfolio 2" />
+          <div class="content">
+            <p class="label">UI/UX DESIGN</p>
+            <h3>Product Admin Dashboard</h3>
+            <p class="desc">
+              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+            </p>
+            <a href="#" class="btn">Case Study →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/400x220" alt="Portfolio 3" />
+          <div class="content">
+            <p class="label">UI/UX DESIGN</p>
+            <h3>Product Admin Dashboard</h3>
+            <p class="desc">
+              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+            </p>
+            <a href="#" class="btn">Case Study →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/400x220" alt="Portfolio 4" />
+          <div class="content">
+            <p class="label">UI/UX DESIGN</p>
+            <h3>Product Admin Dashboard</h3>
+            <p class="desc">
+              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+            </p>
+            <a href="#" class="btn">Case Study →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/400x220" alt="Portfolio 5" />
+          <div class="content">
+            <p class="label">UI/UX DESIGN</p>
+            <h3>Product Admin Dashboard</h3>
+            <p class="desc">
+              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+            </p>
+            <a href="#" class="btn">Case Study →</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/400x220" alt="Portfolio 6" />
+          <div class="content">
+            <p class="label">UI/UX DESIGN</p>
+            <h3>Product Admin Dashboard</h3>
+            <p class="desc">
+              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+            </p>
+            <a href="#" class="btn">Case Study →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-btn">
+        <a href="#" class="more-btn">More Project</a>
+      </div>
+    </div>
+  </section>
+
+  
  <!-- Skilled In -->
 
 <section id="skills" class="skills-section" style="padding: 4rem 1rem; background-color: #f8f9fa;">
