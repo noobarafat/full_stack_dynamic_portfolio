@@ -222,42 +222,40 @@
   
  <!-- Skilled In -->
 
-<section id="skills" class="skills-section" style="padding: 4rem 1rem; background-color: #f8f9fa;">
-  <div style="text-align: center; margin-bottom: 2rem;">
-    <h2 style="font-size: 2.5rem; font-weight: bold;">Skilled In</h2>
-    <p style="color: #555;">Tools & Technologies I'm comfortable with</p>
+<section id="skills" class="skills-section">
+  <div class="skills-header">
+    <h2>Skilled In</h2>
+    <p>Tools & Technologies I'm comfortable with</p>
   </div>
 
-  <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem;">
-    
-    <div class="skill-card" style="background: white; padding: 1.5rem; border-radius: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.05); text-align: center;">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML" style="width:40px; height:40px; margin-bottom: 0.5rem;">
-      <h4 style="margin: 0;">HTML5</h4>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+      <h4>HTML5</h4>
     </div>
 
-    <div class="skill-card" style="background: white; padding: 1.5rem; border-radius: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.05); text-align: center;">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS" style="width:40px; height:40px; margin-bottom: 0.5rem;">
-      <h4 style="margin: 0;">CSS3</h4>
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+      <h4>CSS3</h4>
     </div>
 
-    <div class="skill-card" style="background: white; padding: 1.5rem; border-radius: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.05); text-align: center;">
-      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" style="width:40px; height:40px; margin-bottom: 0.5rem;">
-      <h4 style="margin: 0;">JavaScript</h4>
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+      <h4>JavaScript</h4>
     </div>
 
-
-    <div class="skill-card" style="background: white; padding: 1.5rem; border-radius: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.05); text-align: center;">
-      <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Excel" style="width:40px; height:40px; margin-bottom: 0.5rem;">
-      <h4 style="margin: 0;">Excel</h4>
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Excel">
+      <h4>Excel</h4>
     </div>
 
-    <div class="skill-card" style="background: white; padding: 1.5rem; border-radius: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.05); text-align: center;">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" style="width:40px; height:40px; margin-bottom: 0.5rem;">
-      <h4 style="margin: 0;">GitHub</h4>
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+      <h4>GitHub</h4>
     </div>
-
   </div>
 </section>
+
 
 
 <section id="services" style="padding: 4rem 1rem; background-color: #fff9;">

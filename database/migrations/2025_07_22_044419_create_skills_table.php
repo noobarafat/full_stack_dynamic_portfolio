@@ -4,20 +4,20 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateUsersTable extends Migration
+class CreateSkillsTable extends Migration
 {
     /**
      * Run the migrations.
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('skills', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('name');
-            $table->string('email')->unique();
-            $table->string('phone');
-            $table->string('avatar');
-            $table->string('student_id');
+            $table->enum('type', ['technical', 'soft']);
+            $table->enum('level', ['beginner', 'intermediate', 'expert']);
+            $table->string('logo')->nullable();
             $table->timestamps();
         });
     }
@@ -27,6 +27,6 @@ class CreateUsersTable extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('skills');
     }
 }
