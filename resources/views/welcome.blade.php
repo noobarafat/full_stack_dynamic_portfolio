@@ -25,21 +25,40 @@
     </div>
   </nav>
 
-<!-- Modern Sleek Banner Section -->
-<section class="hero" style="background: linear-gradient(120deg, #e6e9ff 0%, #f8f9ff 100%); padding: 80px 0 60px 0;">
-  <div class="container hero-container" style="display: flex; align-items: center; justify-content: center; gap: 3rem; flex-wrap: wrap;">
+<!-- Modern Powerful Banner Section -->
+<section class="hero" style="background: linear-gradient(120deg, #e6e9ff 0%, #f8f9ff 100%); padding: 80px 0 60px 0; position:relative; overflow:hidden;">
+  <!-- Decorative SVG Blob -->
+  <svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg"
+    style="position:absolute; right:-120px; top:-80px; z-index:0; opacity:0.18;">
+    <ellipse cx="210" cy="210" rx="210" ry="210" fill="url(#paint0_linear)" />
+    <defs>
+      <linearGradient id="paint0_linear" x1="0" y1="0" x2="420" y2="420" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#6C63FF"/>
+        <stop offset="1" stop-color="#8a2be2"/>
+      </linearGradient>
+    </defs>
+  </svg>
+  <div class="container hero-container" style="display: flex; align-items: center; justify-content: center; gap: 3rem; flex-wrap: wrap; position:relative; z-index:1;">
     <div style="flex:1 1 340px; min-width:300px; max-width:520px; display:flex; flex-direction:column; justify-content:center; gap:1.7rem;">
-      <div style="background: rgba(255,255,255,0.7); border-radius: 2rem; box-shadow: 0 8px 32px rgba(108,99,255,0.10); padding: 2.5rem 2rem 2rem 2rem; backdrop-filter: blur(8px);">
-        <h1 style="font-size:2.8rem; font-weight:800; color:#222; line-height:1.15; margin-bottom:0.7rem;">
+      <div style="background: rgba(255,255,255,0.8); border-radius: 2rem; box-shadow: 0 8px 32px rgba(108,99,255,0.13); padding: 2.5rem 2rem 2rem 2rem; backdrop-filter: blur(8px); position:relative;">
+        
+        <!-- <span style="position:absolute; top:1.5rem; right:2rem; background:linear-gradient(90deg,#6C63FF,#8a2be2); color:#fff; font-size:0.98rem; font-weight:700; padding:0.35rem 1.1rem; border-radius:1.2rem; box-shadow:0 2px 8px rgba(108,99,255,0.10); letter-spacing:1px;">
+          <i class="fas fa-bolt" style="margin-right:6px;"></i>Available for Work
+        </span> -->
+
+        <h1 style="font-size:2.9rem; font-weight:900; color:#222; line-height:1.13; margin-bottom:0.7rem; letter-spacing:-1px;">
           Hi, I'm <span style="color:#6C63FF; background: linear-gradient(90deg,#6C63FF,#8a2be2); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">K. M. Arafat Islam</span>
         </h1>
-        <p style="font-size:1.18rem; color:#444; margin-bottom:1.5rem; line-height:1.7;">
-          Freelance <b>UI/UX Designer</b> & <b>Developer</b> in Dhaka.<br>
+        <p style="font-size:1.22rem; color:#444; margin-bottom:1.5rem; line-height:1.7;">
+          <b style="color:#6C63FF;">UI/UX Designer</b> & <b>Developer</b> from Dhaka.<br>
           I craft immersive, modern web experiences with code & creativity.
         </p>
         <a href="#contact" class="say-hello-btn" style="background: linear-gradient(90deg,#6C63FF 60%,#8a2be2 100%); color:#fff; border:none; font-weight:700; font-size:1.1rem; border-radius:30px; padding:0.8rem 2.5rem; box-shadow:0 4px 16px rgba(108,99,255,0.10); text-decoration:none; transition:background 0.2s,box-shadow 0.2s;">
           <i class="fas fa-paper-plane" style="margin-right:8px;"></i>Say Hello!
         </a>
+        <span style="display:inline-block; margin-left:18px; vertical-align:middle; background:linear-gradient(90deg,#6C63FF,#8a2be2); color:#fff; font-size:1rem; font-weight:700; padding:0.5rem 1.3rem; border-radius:1.5rem; box-shadow:0 2px 8px rgba(108,99,255,0.10); letter-spacing:1px;">
+          <i class="fas fa-bolt" style="margin-right:7px;"></i>Available to Work
+        </span>
         <div style="display:flex; gap:2rem; margin-top:2.2rem;">
           <div style="text-align:center;">
             <div style="font-size:1.3rem; color:#6C63FF; font-weight:700;">2+</div>
@@ -56,9 +75,29 @@
         </div>
       </div>
     </div>
-    <div style="flex:1 1 340px; min-width:260px; display:flex; align-items:center; justify-content:center;">
-      <div style="background: linear-gradient(135deg,#6C63FF 0%,#8a2be2 100%); padding:10px; border-radius:50%; box-shadow:0 8px 32px rgba(108,99,255,0.13); display:inline-block; animation:floaty 3.5s ease-in-out infinite;">
-        <img src="{{asset('assets/hg.png')}}" alt="Arafat Islam" style="width:320px; height:320px; object-fit:cover; border-radius:50%; border:10px solid #fff; background:#f3f4fa; display:block;">
+    <div style="flex:1 1 340px; min-width:300px; display:flex; align-items:center; justify-content:center;">
+      <div style="
+        background: linear-gradient(135deg,#6C63FF 0%,#8a2be2 100%);
+        padding: 14px;
+        border-radius: 50%;
+        box-shadow: 0 12px 40px rgba(108,99,255,0.18), 0 0 0 10px rgba(140,120,255,0.10);
+        display: inline-block;
+        animation: floaty 3.5s ease-in-out infinite;
+        position: relative;
+        ">
+        <img src="{{asset('assets/hg.png')}}" alt="Arafat Islam"
+          style="width:370px; height:370px; object-fit:cover; border-radius:50%; border:10px solid #fff; background:#f3f4fa; display:block; box-shadow:0 8px 32px rgba(108,99,255,0.13), 0 0 32px 0 #8a2be2;">
+        <!-- Glow effect -->
+        <span style="
+          position:absolute;
+          top:50%; left:50%;
+          width:420px; height:420px;
+          transform:translate(-50%,-50%);
+          border-radius:50%;
+          background: radial-gradient(circle, rgba(140,120,255,0.13) 0%, rgba(140,120,255,0.01) 80%);
+          z-index:-1;
+          pointer-events:none;
+        "></span>
       </div>
     </div>
   </div>
@@ -107,45 +146,71 @@
 </section>
 
   <!-- Work Process -->
-<section class="work-process">
+<section class="work-process" style="background: linear-gradient(120deg, #e6e9ff 0%, #f8f9ff 100%); padding: 70px 0 60px 0;">
   <div class="container work-process-container">
-    <h2 class="work-process-title">Work Process</h2>
-    <p class="work-process-desc">
-      My workflow is built on research, analysis, creative design, and seamless execution. Each step is tailored for your success.
+    <h2 class="work-process-title" style="font-size:2.3rem; font-weight:900; color:#6C63FF; margin-bottom:0.7rem; letter-spacing:-1px;">My Work Process</h2>
+    <p class="work-process-desc" style="color:#555; font-size:1.13rem; margin-bottom:2.5rem;">
+      My workflow is built on <b>research</b>, <b>analysis</b>, <b>creative design</b>, and <b>seamless execution</b>. Each step is tailored for your success.
     </p>
-    <div class="work-steps">
-      <div class="work-step">
-        <div class="work-step-icon"><span>📅</span></div>
-        <div class="work-step-content">
-          <h3>1. Research</h3>
-          <p>Understand your goals, audience, and market to gather insights for an effective solution.</p>
+    <div class="work-steps" style="display:flex; justify-content:center; gap:2.5rem; flex-wrap:wrap; position:relative;">
+      <!-- Animated SVG Arrow -->
+      <svg class="work-arrow" width="80" height="40" viewBox="0 0 80 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute; left:22%; top:50%; transform:translateY(-50%); z-index:1; pointer-events:none; opacity:0.25;">
+        <path d="M10 20 Q40 0 70 20" stroke="#6C63FF" stroke-width="4" fill="none"/>
+        <polygon points="70,20 62,16 62,24" fill="#6C63FF"/>
+      </svg>
+      <svg class="work-arrow" width="80" height="40" viewBox="0 0 80 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute; left:49%; top:50%; transform:translateY(-50%); z-index:1; pointer-events:none; opacity:0.25;">
+        <path d="M10 20 Q40 0 70 20" stroke="#6C63FF" stroke-width="4" fill="none"/>
+        <polygon points="70,20 62,16 62,24" fill="#6C63FF"/>
+      </svg>
+      <svg class="work-arrow" width="80" height="40" viewBox="0 0 80 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute; left:76%; top:50%; transform:translateY(-50%); z-index:1; pointer-events:none; opacity:0.25;">
+        <path d="M10 20 Q40 0 70 20" stroke="#6C63FF" stroke-width="4" fill="none"/>
+        <polygon points="70,20 62,16 62,24" fill="#6C63FF"/>
+      </svg>
+      <!-- Step 1 -->
+      <div class="work-step" style="background:rgba(255,255,255,0.95); border-radius:18px; box-shadow:0 4px 24px rgba(108,99,255,0.10); padding:2.2rem 1.5rem 1.5rem 1.5rem; min-width:210px; max-width:230px; text-align:center; position:relative; z-index:2; animation:fadeInUp 1s 0.1s both;">
+        <div class="work-step-icon" style="font-size:2.5rem; margin-bottom:1rem; animation:hero-bounce 2.5s infinite;">
+          <span>🔍</span>
         </div>
+        <h3 style="font-size:1.18rem; font-weight:700; color:#6C63FF; margin-bottom:0.5rem;">1. Research</h3>
+        <p style="font-size:1rem; color:#444;">Understand your goals, audience, and market to gather insights for an effective solution.</p>
       </div>
-      <div class="work-step">
-        <div class="work-step-icon"><span>📈</span></div>
-        <div class="work-step-content">
-          <h3>2. Analyze</h3>
-          <p>Break down data, evaluate challenges, and plan a strategic direction for your project.</p>
+      <!-- Step 2 -->
+      <div class="work-step" style="background:rgba(255,255,255,0.95); border-radius:18px; box-shadow:0 4px 24px rgba(108,99,255,0.10); padding:2.2rem 1.5rem 1.5rem 1.5rem; min-width:210px; max-width:230px; text-align:center; position:relative; z-index:2; animation:fadeInUp 1s 0.3s both;">
+        <div class="work-step-icon" style="font-size:2.5rem; margin-bottom:1rem; animation:hero-bounce 2.5s 0.2s infinite;">
+          <span>📊</span>
         </div>
+        <h3 style="font-size:1.18rem; font-weight:700; color:#6C63FF; margin-bottom:0.5rem;">2. Analyze</h3>
+        <p style="font-size:1rem; color:#444;">Break down data, evaluate challenges, and plan a strategic direction for your project.</p>
       </div>
-      <div class="work-step">
-        <div class="work-step-icon"><span>✏️</span></div>
-        <div class="work-step-content">
-          <h3>3. Design</h3>
-          <p>Craft intuitive and visually appealing designs that enhance user experience and reflect your brand.</p>
+      <!-- Step 3 -->
+      <div class="work-step" style="background:rgba(255,255,255,0.95); border-radius:18px; box-shadow:0 4px 24px rgba(108,99,255,0.10); padding:2.2rem 1.5rem 1.5rem 1.5rem; min-width:210px; max-width:230px; text-align:center; position:relative; z-index:2; animation:fadeInUp 1s 0.5s both;">
+        <div class="work-step-icon" style="font-size:2.5rem; margin-bottom:1rem; animation:hero-bounce 2.5s 0.4s infinite;">
+          <span>🎨</span>
         </div>
+        <h3 style="font-size:1.18rem; font-weight:700; color:#6C63FF; margin-bottom:0.5rem;">3. Design</h3>
+        <p style="font-size:1rem; color:#444;">Craft intuitive and visually appealing designs that enhance user experience and reflect your brand.</p>
       </div>
-      <div class="work-step">
-        <div class="work-step-icon"><span>🚀</span></div>
-        <div class="work-step-content">
-          <h3>4. Launch</h3>
-          <p>Test thoroughly and launch confidently, ensuring everything runs smoothly and delivers value.</p>
+      <!-- Step 4 -->
+      <div class="work-step" style="background:rgba(255,255,255,0.95); border-radius:18px; box-shadow:0 4px 24px rgba(108,99,255,0.10); padding:2.2rem 1.5rem 1.5rem 1.5rem; min-width:210px; max-width:230px; text-align:center; position:relative; z-index:2; animation:fadeInUp 1s 0.7s both;">
+        <div class="work-step-icon" style="font-size:2.5rem; margin-bottom:1rem; animation:hero-bounce 2.5s 0.6s infinite;">
+          <span>🚀</span>
         </div>
+        <h3 style="font-size:1.18rem; font-weight:700; color:#6C63FF; margin-bottom:0.5rem;">4. Launch</h3>
+        <p style="font-size:1rem; color:#444;">Test thoroughly and launch confidently, ensuring everything runs smoothly and delivers value.</p>
       </div>
     </div>
   </div>
 </section>
-
+<style>
+@keyframes fadeInUp {
+  from { opacity:0; transform:translateY(40px);}
+  to { opacity:1; transform:translateY(0);}
+}
+@keyframes hero-bounce {
+  0%,100% { transform: translateY(0);}
+  50% { transform: translateY(-18px);}
+}
+</style>
   
   
  <!-- Skilled In -->
