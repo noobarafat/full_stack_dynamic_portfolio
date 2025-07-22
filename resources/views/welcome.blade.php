@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>K. M. Arafat Islam</title>
   <link rel="shortcut icon" href="https://media.licdn.com/dms/image/v2/D5603AQEH7d0haxFQJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731437679058?e=2147483647&v=beta&t=2rUDL0vSwdioF9bxHrabYGZMttRjYeZApLHamCsNe-I" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"><!-- Font Awesome -->
   <link rel="stylesheet" href="{{asset('style/hg.png')}}">
   <link rel="stylesheet" href="{{asset('styles/style.css')}}">
-  
 </head>
 <body>
   <!-- Navigation Bar -->
@@ -132,98 +132,7 @@
   </div>
 </section>
 
-  <!-- Portfolio -->
-  <section class="portfolio-section">
-    <div class="container">
-      <div class="header">
-        <h2>Portfolio</h2>
-        <p>
-          There are many variations of passages of Lorem Ipsum available, <br>
-          but the majority have suffered alteration.
-        </p>
-      </div>
-
-      <div class="portfolio-grid">
-        <!-- Portfolio Card -->
-        <div class="card">
-          <img src="https://via.placeholder.com/400x220" alt="Portfolio 1" />
-          <div class="content">
-            <p class="label">UI/UX DESIGN</p>
-            <h3>Product Admin Dashboard</h3>
-            <p class="desc">
-              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
-            </p>
-            <a href="#" class="btn">Case Study →</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://via.placeholder.com/400x220" alt="Portfolio 2" />
-          <div class="content">
-            <p class="label">UI/UX DESIGN</p>
-            <h3>Product Admin Dashboard</h3>
-            <p class="desc">
-              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
-            </p>
-            <a href="#" class="btn">Case Study →</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://via.placeholder.com/400x220" alt="Portfolio 3" />
-          <div class="content">
-            <p class="label">UI/UX DESIGN</p>
-            <h3>Product Admin Dashboard</h3>
-            <p class="desc">
-              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
-            </p>
-            <a href="#" class="btn">Case Study →</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://via.placeholder.com/400x220" alt="Portfolio 4" />
-          <div class="content">
-            <p class="label">UI/UX DESIGN</p>
-            <h3>Product Admin Dashboard</h3>
-            <p class="desc">
-              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
-            </p>
-            <a href="#" class="btn">Case Study →</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://via.placeholder.com/400x220" alt="Portfolio 5" />
-          <div class="content">
-            <p class="label">UI/UX DESIGN</p>
-            <h3>Product Admin Dashboard</h3>
-            <p class="desc">
-              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
-            </p>
-            <a href="#" class="btn">Case Study →</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://via.placeholder.com/400x220" alt="Portfolio 6" />
-          <div class="content">
-            <p class="label">UI/UX DESIGN</p>
-            <h3>Product Admin Dashboard</h3>
-            <p class="desc">
-              Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
-            </p>
-            <a href="#" class="btn">Case Study →</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-btn">
-        <a href="#" class="more-btn">More Project</a>
-      </div>
-    </div>
-  </section>
-
+  
   
  <!-- Skilled In -->
 
@@ -232,176 +141,225 @@
     <h2>Skilled In</h2>
     <p>Tools & Technologies I'm comfortable with</p>
   </div>
-
   <div class="skills-grid">
     <div class="skill-card">
       <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
       <h4>HTML5</h4>
     </div>
-
     <div class="skill-card">
       <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
       <h4>CSS3</h4>
     </div>
-
     <div class="skill-card">
       <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
       <h4>JavaScript</h4>
     </div>
-
     <div class="skill-card">
       <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Excel">
       <h4>Excel</h4>
     </div>
-
     <div class="skill-card">
       <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
       <h4>GitHub</h4>
     </div>
+    <!-- Add more skills as needed -->
+  </div>
+</section>
+
+ <!-- Projects Section -->
+<section class="projects-section" id="projects">
+  <div class="container">
+    <div class="projects-header">
+      <h2>Projects</h2>
+      <p>
+        A showcase of my favorite works, blending creativity and technology to deliver real impact.
+      </p>
+    </div>
+    <div class="projects-grid">
+      <!-- Project Card 1 -->
+      <div class="project-card">
+        <div class="project-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Admin Dashboard" />
+        </div>
+        <div class="project-info">
+          <span class="project-label">UI/UX DESIGN</span>
+          <h3>Product Admin Dashboard</h3>
+          <p>
+            A modern dashboard for product management with analytics, charts, and user-friendly controls.
+          </p>
+          <a href="#" class="project-btn">Case Study →</a>
+        </div>
+      </div>
+      <!-- Project Card 2 -->
+      <div class="project-card">
+        <div class="project-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="E-commerce Website" />
+        </div>
+        <div class="project-info">
+          <span class="project-label">WEB DEVELOPMENT</span>
+          <h3>E-commerce Website</h3>
+          <p>
+            A responsive online store with seamless checkout, product filters, and engaging UI.
+          </p>
+          <a href="#" class="project-btn">View Project →</a>
+        </div>
+      </div>
+      <!-- Project Card 3 -->
+      <div class="project-card">
+        <div class="project-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Portfolio Website" />
+        </div>
+        <div class="project-info">
+          <span class="project-label">PERSONAL BRANDING</span>
+          <h3>Portfolio Website</h3>
+          <p>
+            A personal portfolio to highlight skills, experience, and creative works in a unique style.
+          </p>
+          <a href="#" class="project-btn">See Live →</a>
+        </div>
+      </div>
+      <!-- Project Card 4 -->
+      <div class="project-card">
+        <div class="project-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Mobile App UI" />
+        </div>
+        <div class="project-info">
+          <span class="project-label">APP DESIGN</span>
+          <h3>Mobile App UI</h3>
+          <p>
+            Sleek and intuitive mobile app interface for a productivity tool, focused on usability.
+          </p>
+          <a href="#" class="project-btn">Details →</a>
+        </div>
+      </div>
+    </div>
+    <div class="projects-footer-btn">
+      <a href="#" class="more-btn">See More Projects</a>
+    </div>
   </div>
 </section>
 
 
-
-<section id="services" style="padding: 4rem 1rem; background-color: #fff9;">
-  <div style="text-align: center; margin-bottom: 2rem;">
-    <h2 style="font-size: 2.5rem; font-weight: bold;">My Services</h2>
-    <p style="color: #555;">What I can do for you, with heart and skills ✨</p>
+<!-- My services -->
+<section id="services" class="services-section">
+  <div class="services-header">
+    <h2>My Services</h2>
+    <p>What I can do for you, with heart and skills ✨</p>
   </div>
-
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
-    
+  <div class="services-grid">
     <!-- Service Card 1 -->
     <div class="service-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Design">
+      <div class="service-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Design">
+      </div>
       <h3>UI/UX Design</h3>
       <p>Beautiful, user-friendly designs using Figma & Adobe tools.</p>
     </div>
-
     <!-- Service Card 2 -->
     <div class="service-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/270/270798.png" alt="Development">
+      <div class="service-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/270/270798.png" alt="Development">
+      </div>
       <h3>Web Development</h3>
       <p>Front-end development with HTML, CSS, JS & responsive layouts.</p>
     </div>
-
     <!-- Service Card 3 -->
     <div class="service-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Presentation">
+      <div class="service-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Presentation">
+      </div>
       <h3>Presentation Design</h3>
       <p>Eye-catching slides & pitch decks that impress instantly.</p>
     </div>
-
     <!-- Service Card 4 -->
     <div class="service-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Content">
+      <div class="service-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Content">
+      </div>
       <h3>Content Writing</h3>
       <p>SEO-friendly blog & website content tailored for your audience.</p>
     </div>
-
   </div>
 </section>
 
 
-<section id="experience" style="padding: 4rem 1rem; background-color: #f3f6f9;">
-  <div style="text-align: center; margin-bottom: 3rem;">
-    <h2 style="font-size: 2.5rem; font-weight: bold;">Work Experience</h2>
-    <p style="color: #555;">A timeline of how I’ve built skills & delivered value 🧠💼</p>
+<!-- Work Experience -->
+<section id="experience" class="experience-section">
+  <div class="experience-header">
+    <h2>Work Experience</h2>
+    <p>My professional journey so far 🚀</p>
   </div>
-
   <div class="timeline">
-
-    <!-- Experience 1 -->
+    <!-- Timeline Item 1 -->
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
-        <h3>UI/UX Designer</h3>
-        <h4>Freelancer @ Fiverr</h4>
-        <span class="timeline-date">2023 — Present</span>
-        <p>Designed 20+ mobile and web interfaces. Specialized in wireframing, prototyping and responsive UI design using Figma. Built smooth client experiences and earned 5-star reviews.</p>
+        <span class="timeline-date">2023 - Present</span>
+        <h3>Lead UI/UX Designer</h3>
+        <h4>Creative Studio, Dhaka</h4>
+        <ul class="timeline-list">
+          <li>Leading a team of designers for web and mobile projects</li>
+          <li>Collaborating with developers and clients</li>
+          <li>Delivering user-centric, high-impact solutions</li>
+        </ul>
       </div>
     </div>
-
-    <!-- Experience 2 -->
+    <!-- Timeline Item 2 -->
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
-        <h3>Presentation & Visual Designer</h3>
-        <h4>Support Role (Pending) @ BIDA</h4>
-        <span class="timeline-date">2025</span>
-        <p>Crafting modern, high-quality presentations for government-level strategic meetings. Supporting the Chairman in speeches, reports, and visual storytelling (applying now).</p>
+        <span class="timeline-date">2021 - 2023</span>
+        <h3>Front-end Developer</h3>
+        <h4>Webify Solutions</h4>
+        <ul class="timeline-list">
+          <li>Developed responsive websites and dashboards</li>
+          <li>Worked with React, Vue, and modern CSS</li>
+          <li>Optimized UI for speed and accessibility</li>
+        </ul>
       </div>
     </div>
-
-    <!-- Experience 3 -->
+    <!-- Timeline Item 3 -->
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-content">
-        <h3>Content Writer</h3>
-        <h4>Freelancer | Medium, LinkedIn</h4>
-        <span class="timeline-date">2022 — Present</span>
-        <p>Writing SEO-optimized articles, storytelling posts, and career blogs. Known for Gen-Z tone and high engagement writing style. Focused on tech, learning, and productivity.</p>
+        <span class="timeline-date">2020 - 2021</span>
+        <h3>Junior Web Designer</h3>
+        <h4>Freelance</h4>
+        <ul class="timeline-list">
+          <li>Designed landing pages and portfolios</li>
+          <li>Built e-commerce sites for global clients</li>
+          <li>Focused on clean, modern layouts</li>
+        </ul>
       </div>
     </div>
-
   </div>
 </section>
-
-
-<section id="projects" style="padding: 4rem 1rem; background-color: #fff;">
-  <div style="text-align: center; margin-bottom: 3rem;">
-    <h2 style="font-size: 2.5rem; font-weight: bold;">Featured Projects</h2>
-    <p style="color: #555;">Real work. Real impact. Handpicked with love 💙</p>
+<!-- Contact Section / Footer -->
+<footer id="contact" class="footer-contact-section">
+  <div class="footer-container">
+    <div class="footer-contact-card">
+      <h2>Let’s Connect!</h2>
+      <p>Have a project, idea, or just want to say hello? Fill out the form or reach me directly on social media.</p>
+      <form class="contact-form" action="#" method="POST" autocomplete="off">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit" class="contact-btn">Send Message</button>
+      </form>
+      <div class="footer-social">
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2025 K. M. Arafat Islam. All rights reserved.
+      </div>
+    </div>
   </div>
-
-  <div class="project-grid">
-
-    <!-- Project Card 1 -->
-    <div class="project-card">
-      
-      <div class="project-info">
-        <h3>Mobile Banking App UI</h3>
-        <p>Modern UI for a Fintech app. Focused on user flow, clean layout, and trust.</p>
-        <a href="#" target="_blank">View Case Study →</a>
-      </div>
-    </div>
-
-    <!-- Project Card 2 -->
-    <div class="project-card">
-   
-      <div class="project-info">
-        <h3>E-commerce Website Design</h3>
-        <p>Designed homepage, product page & cart for a fashion brand. Optimized for UX & conversions.</p>
-        <a href="#" target="_blank">Live Demo →</a>
-      </div>
-    </div>
-
-    <!-- Project Card 3 -->
-    <div class="project-card">
-     
-      <div class="project-info">
-        <h3>Modern CV Template</h3>
-        <p>Clean, ATS-friendly CV design sold on Fiverr. Over 50 clients served!</p>
-        <a href="#" target="_blank">Download Sample →</a>
-      </div>
-    </div>
-
-    <!-- Project Card 4 -->
-    <div class="project-card">
-      <div class="project-info">
-        <h3>Analytics Dashboard</h3>
-        <p>Built Figma dashboard for data insights with charts, tables & filters.</p>
-        <a href="#" target="_blank">Explore UI →</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-
-<script src="{{asset('assets/js/script.js')}}"></script>
+</footer>
 </body>
 </html>
