@@ -10,122 +10,127 @@
   
 </head>
 <body>
-<!-- Banner Section -->
-<<section class="hero">
-    <div class="container">
-      <div class="hero-left">
-        <h1>Hello, I'm<br><span>K. M. Arafat Islam</span></h1>
-        <p>
-          I'm a Freelance <b>UI/UX Designer</b> and <b>Developer</b> based in Dhaka, Bangladesh.  
-          I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
-        </p>
-        <a href="#" class="say-hello">Say Hello!</a>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Arafat<span style="color:#6C63FF;">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-        <div class="stats">
-          <div class="stat-card">
-            <h2>15 Y.</h2>
-            <p>Experience</p>
-          </div>
-          <div class="stat-card">
-            <h2>250+</h2>
-            <p>Project Completed</p>
-          </div>
-          <div class="stat-card">
-            <h2>58</h2>
-            <p>Happy Client</p>
-          </div>
+<!-- Banner Section -->
+<section class="hero">
+  <div class="container hero-container">
+    <div class="hero-left">
+      <h1>Hello, I'm<br><span>K. M. Arafat Islam</span></h1>
+      <p>
+        I'm a Freelance <b>UI/UX Designer</b> and <b>Developer</b> based in Dhaka, Bangladesh.<br>
+        I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
+      </p>
+      <a href="#contact" class="say-hello-btn">Say Hello!</a>
+      <div class="stats">
+        <div class="stat-card">
+          <h2>2 Years.</h2>
+          <p>Experience</p>
+        </div>
+        <div class="stat-card">
+          <h2>50+</h2>
+          <p>Projects</p>
+        </div>
+        <div class="stat-card">
+          <h2>39</h2>
+          <p>Happy Clients</p>
         </div>
       </div>
-
-      <div class="hero-right">
-      <img class="banner_img" src="{{asset('assets/hg.png')}}" alt="">
-      </div>
     </div>
-  </section>
+    <div class="hero-right">
+      <img class="banner-img" src="{{asset('assets/hg.png')}}" alt="Arafat Islam">
+    </div>
+  </div>
+</section>
 
 
 <!-- Download CV  -->
-<section class="about">
-    <div class="about-card">
-      <div class="about-left">
-        <div class="image-wrapper">
-      <img class="banner_img" src="{{asset('assets/hg.png')}}" alt="">
-          <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-dribbble"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in active"></i></a>
-            <a href="#"><i class="fab fa-behance"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="about-right">
-        <h2>I am Professional User<br>Experience Designer</h2>
-        <p>
-          I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences.
-        </p>
-        <p>
-          I design and develop services for customers specializing creating stylish, modern websites, web services.
-        </p>
-
-        <div class="btn-group">
-          <a href="#" class="btn primary">My Project</a>
-          <a href="#" class="btn outline"><i class="fas fa-download"></i> Download CV</a>
+<section class="about-pro">
+  <div class="about-pro-card">
+    <div class="about-pro-left">
+      <div class="about-pro-img-wrapper">
+        <img class="about-pro-img" src="{{asset('assets/hg.png')}}" alt="Arafat Islam">
+        <div class="about-pro-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
         </div>
       </div>
     </div>
-  </section>
+    <div class="about-pro-right">
+      <h2>
+        <span class="about-pro-highlight">Professional</span> User Experience Designer
+      </h2>
+      <p>
+        I design and develop stylish, modern websites, web services, and online stores. My passion is to create digital user experiences that are both beautiful and functional.
+      </p>
+      <p>
+        Specialized in UI/UX, web development, and digital branding. Let’s build something amazing together!
+      </p>
+      <div class="about-pro-btn-group">
+        <a href="#projects" class="about-pro-btn about-pro-btn-primary">My Projects</a>
+        <a href="#" class="about-pro-btn about-pro-btn-gradient">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Work Process -->
-
-   <section class="work-process">
-    <div class="container">
-      <div class="left">
-        <h2>Work Process</h2>
-        <p>
-          Our workflow is built on a foundation of deep research, thoughtful analysis, creative design, and seamless execution. Each step is tailored to ensure success and satisfaction.
-        </p>
-        <p>
-          From the initial idea to the final launch, we collaborate with our clients to deliver results that truly make an impact.
-        </p>
+<section class="work-process">
+  <div class="container work-process-container">
+    <h2 class="work-process-title">Work Process</h2>
+    <p class="work-process-desc">
+      My workflow is built on research, analysis, creative design, and seamless execution. Each step is tailored for your success.
+    </p>
+    <div class="work-steps">
+      <div class="work-step">
+        <div class="work-step-icon"><span>📅</span></div>
+        <div class="work-step-content">
+          <h3>1. Research</h3>
+          <p>Understand your goals, audience, and market to gather insights for an effective solution.</p>
+        </div>
       </div>
-
-      <div class="right">
-        <div class="card">
-          <div class="icon purple"><span>📅</span></div>
-          <div class="text">
-            <h3>1. Research</h3>
-            <p>We begin by understanding your goals, audience, and market to gather all the insights needed to create an effective solution.</p>
-          </div>
+      <div class="work-step">
+        <div class="work-step-icon"><span>📈</span></div>
+        <div class="work-step-content">
+          <h3>2. Analyze</h3>
+          <p>Break down data, evaluate challenges, and plan a strategic direction for your project.</p>
         </div>
-
-        <div class="card">
-          <div class="icon purple"><span>📈</span></div>
-          <div class="text">
-            <h3>2. Analyze</h3>
-            <p>We break down the data, evaluate challenges, and identify opportunities to plan a strategic direction for the project.</p>
-          </div>
+      </div>
+      <div class="work-step">
+        <div class="work-step-icon"><span>✏️</span></div>
+        <div class="work-step-content">
+          <h3>3. Design</h3>
+          <p>Craft intuitive and visually appealing designs that enhance user experience and reflect your brand.</p>
         </div>
-
-        <div class="card">
-          <div class="icon purple"><span>✏️</span></div>
-          <div class="text">
-            <h3>3. Design</h3>
-            <p>Our creative team crafts intuitive and visually appealing designs that enhance user experience and align with your brand.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="icon purple"><span>🚀</span></div>
-          <div class="text">
-            <h3>4. Launch</h3>
-            <p>After thorough testing, we launch your product confidently, ensuring everything runs smoothly and delivers value from day one.</p>
-          </div>
+      </div>
+      <div class="work-step">
+        <div class="work-step-icon"><span>🚀</span></div>
+        <div class="work-step-content">
+          <h3>4. Launch</h3>
+          <p>Test thoroughly and launch confidently, ensuring everything runs smoothly and delivers value.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Portfolio -->
   <section class="portfolio-section">
