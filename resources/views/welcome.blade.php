@@ -251,7 +251,7 @@
     <div class="projects-header">
       <h2>Projects</h2>
       <p>
-        A showcase of my favorite works, blending creativity and technology to deliver real impact.
+        A showcase of my most reviewed works, blending creativity and technology to deliver real impact.
       </p>
     </div>
     <div class="projects-grid">
