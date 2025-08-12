@@ -10,20 +10,305 @@
   <link rel="stylesheet" href="{{asset('styles/style.css')}}">
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="container nav-container">
-      <a href="#" class="logo">Arafat<span style="color:#6C63FF;">.</span></a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+  <!-- Revolutionary World-Class Navbar -->
+  <nav class="navbar" style="position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(20px) saturate(180%); border-bottom: 1px solid rgba(255, 255, 255, 0.2); transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);">
+    <div class="container nav-container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; height: 80px; position: relative;">
+      
+      <!-- Epic Logo with Animation -->
+      <a href="#" class="logo" style="font-size: 2rem; font-weight: 900; text-decoration: none; position: relative; overflow: hidden; padding: 10px 0;">
+        <span style="background: linear-gradient(135deg, #6C63FF 0%, #8a2be2 50%, #FF6B6B 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-size: 200% 200%; animation: gradient-shift 3s ease infinite; position: relative; z-index: 2;">Arafat</span><span style="color: #6C63FF; font-size: 2.2rem; animation: bounce-dot 2s ease-in-out infinite;">.</span>
+        <!-- Animated underline -->
+        <div style="position: absolute; bottom: 0; left: 0; width: 0; height: 3px; background: linear-gradient(90deg, #6C63FF, #8a2be2, #FF6B6B); transition: width 0.3s ease; border-radius: 2px;"></div>
+      </a>
+      
+      <!-- Navigation Links with Advanced Hover Effects -->
+      <ul class="nav-links" style="display: flex; list-style: none; margin: 0; padding: 0; gap: 2rem; align-items: center;">
+        <li style="position: relative;">
+          <a href="#about" class="nav-link" style="text-decoration: none; color: #333; font-weight: 600; font-size: 1rem; padding: 12px 20px; border-radius: 25px; transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); position: relative; overflow: hidden; display: inline-block;">
+            <span style="position: relative; z-index: 2;">About</span>
+            <div class="nav-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #6C63FF, #8a2be2); transform: scaleX(0); transform-origin: right; transition: transform 0.3s ease; border-radius: 25px;"></div>
+          </a>
+        </li>
+        <li style="position: relative;">
+          <a href="#skills" class="nav-link" style="text-decoration: none; color: #333; font-weight: 600; font-size: 1rem; padding: 12px 20px; border-radius: 25px; transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); position: relative; overflow: hidden; display: inline-block;">
+            <span style="position: relative; z-index: 2;">Skills</span>
+            <div class="nav-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #6C63FF, #8a2be2); transform: scaleX(0); transform-origin: right; transition: transform 0.3s ease; border-radius: 25px;"></div>
+          </a>
+        </li>
+        <li style="position: relative;">
+          <a href="#services" class="nav-link" style="text-decoration: none; color: #333; font-weight: 600; font-size: 1rem; padding: 12px 20px; border-radius: 25px; transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); position: relative; overflow: hidden; display: inline-block;">
+            <span style="position: relative; z-index: 2;">Services</span>
+            <div class="nav-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #6C63FF, #8a2be2); transform: scaleX(0); transform-origin: right; transition: transform 0.3s ease; border-radius: 25px;"></div>
+          </a>
+        </li>
+        <li style="position: relative;">
+          <a href="#experience" class="nav-link" style="text-decoration: none; color: #333; font-weight: 600; font-size: 1rem; padding: 12px 20px; border-radius: 25px; transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); position: relative; overflow: hidden; display: inline-block;">
+            <span style="position: relative; z-index: 2;">Experience</span>
+            <div class="nav-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #6C63FF, #8a2be2); transform: scaleX(0); transform-origin: right; transition: transform 0.3s ease; border-radius: 25px;"></div>
+          </a>
+        </li>
+        <li style="position: relative;">
+          <a href="#projects" class="nav-link" style="text-decoration: none; color: #333; font-weight: 600; font-size: 1rem; padding: 12px 20px; border-radius: 25px; transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); position: relative; overflow: hidden; display: inline-block;">
+            <span style="position: relative; z-index: 2;">Projects</span>
+            <div class="nav-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #6C63FF, #8a2be2); transform: scaleX(0); transform-origin: right; transition: transform 0.3s ease; border-radius: 25px;"></div>
+          </a>
+        </li>
+        <li style="position: relative;">
+          <a href="#contact" class="nav-link nav-cta" style="text-decoration: none; color: white; font-weight: 700; font-size: 1rem; padding: 14px 28px; border-radius: 30px; background: linear-gradient(135deg, #6C63FF 0%, #8a2be2 100%); transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); position: relative; overflow: hidden; display: inline-block; box-shadow: 0 4px 20px rgba(108, 99, 255, 0.3);">
+            <span style="position: relative; z-index: 2; display: flex; align-items: center; gap: 8px;">
+              <i class="fas fa-paper-plane" style="font-size: 0.9rem;"></i>
+              Contact
+            </span>
+            <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.6s ease;"></div>
+          </a>
+        </li>
       </ul>
+      
+      <!-- Mobile Menu Toggle -->
+      <div class="mobile-menu-toggle" style="display: none; flex-direction: column; cursor: pointer; padding: 10px; border-radius: 8px; transition: all 0.3s ease;">
+        <div class="hamburger-line" style="width: 25px; height: 3px; background: linear-gradient(135deg, #6C63FF, #8a2be2); margin: 3px 0; border-radius: 2px; transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);"></div>
+        <div class="hamburger-line" style="width: 25px; height: 3px; background: linear-gradient(135deg, #6C63FF, #8a2be2); margin: 3px 0; border-radius: 2px; transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);"></div>
+        <div class="hamburger-line" style="width: 25px; height: 3px; background: linear-gradient(135deg, #6C63FF, #8a2be2); margin: 3px 0; border-radius: 2px; transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);"></div>
+      </div>
+      
+      <!-- Mobile Menu Overlay -->
+      <div class="mobile-menu" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: linear-gradient(135deg, rgba(108, 99, 255, 0.98), rgba(138, 43, 226, 0.98)); backdrop-filter: blur(20px); transform: translateX(-100%); transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem;">
+        <div class="mobile-close" style="position: absolute; top: 30px; right: 30px; font-size: 2rem; color: white; cursor: pointer; padding: 10px; border-radius: 50%; background: rgba(255, 255, 255, 0.1); transition: all 0.3s ease;">×</div>
+        <a href="#about" class="mobile-nav-link" style="color: white; font-size: 1.5rem; font-weight: 600; text-decoration: none; padding: 15px 30px; border-radius: 25px; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);">About</a>
+        <a href="#skills" class="mobile-nav-link" style="color: white; font-size: 1.5rem; font-weight: 600; text-decoration: none; padding: 15px 30px; border-radius: 25px; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);">Skills</a>
+        <a href="#services" class="mobile-nav-link" style="color: white; font-size: 1.5rem; font-weight: 600; text-decoration: none; padding: 15px 30px; border-radius: 25px; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);">Services</a>
+        <a href="#experience" class="mobile-nav-link" style="color: white; font-size: 1.5rem; font-weight: 600; text-decoration: none; padding: 15px 30px; border-radius: 25px; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);">Experience</a>
+        <a href="#projects" class="mobile-nav-link" style="color: white; font-size: 1.5rem; font-weight: 600; text-decoration: none; padding: 15px 30px; border-radius: 25px; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);">Projects</a>
+        <a href="#contact" class="mobile-nav-link" style="color: white; font-size: 1.5rem; font-weight: 700; text-decoration: none; padding: 15px 30px; border-radius: 25px; transition: all 0.3s ease; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px);">Contact</a>
+      </div>
     </div>
   </nav>
+
+  <!-- Revolutionary Navbar Styles -->
+  <style>
+    /* Gradient animation for logo */
+    @keyframes gradient-shift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    /* Bouncing dot animation */
+    @keyframes bounce-dot {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-5px) scale(1.1); }
+    }
+    
+    /* Logo hover effect */
+    .logo:hover div {
+      width: 100% !important;
+    }
+    
+    /* Navigation link hover effects */
+    .nav-link:hover .nav-bg {
+      transform: scaleX(1) !important;
+      transform-origin: left !important;
+    }
+    
+    .nav-link:hover span {
+      color: white !important;
+      transform: translateY(-1px);
+    }
+    
+    /* CTA button hover effects */
+    .nav-cta:hover {
+      transform: translateY(-2px) scale(1.05) !important;
+      box-shadow: 0 8px 30px rgba(108, 99, 255, 0.4) !important;
+    }
+    
+    .nav-cta:hover div {
+      left: 100% !important;
+    }
+    
+    /* Navbar scroll effect */
+    .navbar.scrolled {
+      background: rgba(255, 255, 255, 0.98) !important;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1) !important;
+      backdrop-filter: blur(25px) !important;
+    }
+    
+    /* Mobile hamburger animation */
+    .mobile-menu-toggle.active .hamburger-line:nth-child(1) {
+      transform: rotate(45deg) translate(6px, 6px);
+    }
+    
+    .mobile-menu-toggle.active .hamburger-line:nth-child(2) {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    
+    .mobile-menu-toggle.active .hamburger-line:nth-child(3) {
+      transform: rotate(-45deg) translate(6px, -6px);
+    }
+    
+    /* Mobile menu active state */
+    .mobile-menu.active {
+      transform: translateX(0) !important;
+    }
+    
+    /* Mobile nav link hover */
+    .mobile-nav-link:hover {
+      background: rgba(255, 255, 255, 0.2) !important;
+      transform: translateY(-2px) scale(1.02);
+    }
+    
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none !important;
+      }
+      
+      .mobile-menu-toggle {
+        display: flex !important;
+      }
+      
+      .nav-container {
+        height: 70px !important;
+      }
+      
+      .logo {
+        font-size: 1.5rem !important;
+      }
+    }
+    
+    /* Smooth scrolling for anchor links */
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    /* Page sections padding for fixed navbar */
+    section {
+      scroll-margin-top: 100px;
+    }
+    
+    /* Advanced micro-interactions */
+    .nav-link {
+      position: relative;
+    }
+    
+    .nav-link::before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: 50%;
+      transform: translateX(-50%) scaleX(0);
+      width: 6px;
+      height: 6px;
+      background: linear-gradient(135deg, #6C63FF, #8a2be2);
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+    }
+    
+    .nav-link:hover::before {
+      transform: translateX(-50%) scaleX(1);
+    }
+    
+    /* Navbar entrance animation */
+    .navbar {
+      animation: navSlideDown 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    
+    @keyframes navSlideDown {
+      from {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    
+    /* Active nav indicator */
+    .nav-link.active {
+      color: #6C63FF !important;
+      font-weight: 700 !important;
+    }
+    
+    .nav-link.active::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 3px;
+      background: linear-gradient(90deg, #6C63FF, #8a2be2);
+      border-radius: 2px;
+    }
+  </style>
+
+  <!-- Navbar JavaScript for interactions -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const navbar = document.querySelector('.navbar');
+      const mobileToggle = document.querySelector('.mobile-menu-toggle');
+      const mobileMenu = document.querySelector('.mobile-menu');
+      const mobileClose = document.querySelector('.mobile-close');
+      const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
+      
+      // Navbar scroll effect
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+      
+      // Mobile menu toggle
+      mobileToggle?.addEventListener('click', function() {
+        mobileToggle.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
+        document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : 'auto';
+      });
+      
+      // Mobile menu close
+      mobileClose?.addEventListener('click', function() {
+        mobileToggle.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+      
+      // Close mobile menu on link click
+      navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          mobileToggle?.classList.remove('active');
+          mobileMenu?.classList.remove('active');
+          document.body.style.overflow = 'auto';
+        });
+      });
+      
+      // Active section highlighting
+      const sections = document.querySelectorAll('section[id]');
+      
+      function updateActiveNav() {
+        let current = '';
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop - 150;
+          const sectionHeight = section.clientHeight;
+          if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+            current = section.getAttribute('id');
+          }
+        });
+        
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${current}`) {
+            link.classList.add('active');
+          }
+        });
+      }
+      
+      window.addEventListener('scroll', updateActiveNav);
+      updateActiveNav(); // Initial call
+    });
+  </script>
 
 <!-- Modern Powerful Banner Section -->
 <section class="hero" style="background: linear-gradient(120deg, #e6e9ff 0%, #f8f9ff 100%); padding: 80px 0 60px 0; position:relative; overflow:hidden;">
@@ -213,37 +498,325 @@
 </style>
   
   
- <!-- Skilled In -->
-
-<section id="skills" class="skills-section">
-  <div class="skills-header">
-    <h2>Skilled In</h2>
-    <p>Tools & Technologies I'm comfortable with</p>
+ <!-- Revolutionary Skills Section -->
+<section id="skills" class="skills-section" style="background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%); padding: 100px 0; position: relative; overflow: hidden;">
+  <!-- Animated Background Particles -->
+  <div class="particles-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+    <div class="particle" style="position: absolute; width: 4px; height: 4px; background: rgba(108,99,255,0.6); border-radius: 50%; animation: float 6s ease-in-out infinite; top: 10%; left: 10%;"></div>
+    <div class="particle" style="position: absolute; width: 6px; height: 6px; background: rgba(138,43,226,0.4); border-radius: 50%; animation: float 8s ease-in-out infinite; top: 20%; right: 15%; animation-delay: 2s;"></div>
+    <div class="particle" style="position: absolute; width: 3px; height: 3px; background: rgba(108,99,255,0.8); border-radius: 50%; animation: float 7s ease-in-out infinite; bottom: 30%; left: 20%; animation-delay: 4s;"></div>
+    <div class="particle" style="position: absolute; width: 5px; height: 5px; background: rgba(138,43,226,0.6); border-radius: 50%; animation: float 9s ease-in-out infinite; bottom: 20%; right: 25%; animation-delay: 1s;"></div>
   </div>
-  <div class="skills-grid">
-    <div class="skill-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
-      <h4>HTML5</h4>
+  
+  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px; position: relative; z-index: 2;">
+    <!-- Epic Header -->
+    <div class="skills-header" style="text-align: center; margin-bottom: 80px;">
+      <div style="display: inline-block; position: relative;">
+        <h2 style="font-size: 3.5rem; font-weight: 900; background: linear-gradient(135deg, #fff 0%, #6C63FF 50%, #8a2be2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 20px; letter-spacing: -2px; position: relative;">
+          Tech Arsenal
+          <!-- Glowing underline -->
+          <div style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 120px; height: 4px; background: linear-gradient(90deg, #6C63FF, #8a2be2); border-radius: 2px; animation: pulse-glow 2s ease-in-out infinite;"></div>
+        </h2>
+      </div>
+      <p style="color: rgba(255,255,255,0.8); font-size: 1.3rem; max-width: 600px; margin: 0 auto; line-height: 1.7; font-weight: 300;">
+        Cutting-edge technologies and frameworks powering next-generation digital experiences
+      </p>
     </div>
-    <div class="skill-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
-      <h4>CSS3</h4>
+    
+    <!-- Revolutionary Skills Grid -->
+    <div class="skills-universe" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; max-width: 1000px; margin: 0 auto;">
+      
+      <!-- Frontend Technologies -->
+      <div class="skill-orbit" style="position: relative; background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(10px); overflow: hidden;">
+        <div class="skill-icon-wrapper" style="position: relative; margin-bottom: 20px;">
+          <div class="skill-icon-bg" style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #61DAFB 0%, #21D4FD 100%); display: flex; align-items: center; justify-content: center; position: relative; animation: rotate 10s linear infinite;">
+            <i class="fab fa-react" style="font-size: 2.5rem; color: white;"></i>
+          </div>
+          <div class="skill-orbit-ring" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; border: 2px dashed rgba(97,218,251,0.3); border-radius: 50%; animation: rotate-reverse 15s linear infinite;"></div>
+        </div>
+        <h3 style="color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">React.js</h3>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 15px;">Component-based UI Library</p>
+        <div class="skill-level" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+          <div style="width: 95%; height: 100%; background: linear-gradient(90deg, #61DAFB, #21D4FD); border-radius: 3px; animation: fill-bar 2s ease-out;"></div>
+        </div>
+      </div>
+
+      <div class="skill-orbit" style="position: relative; background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(10px); overflow: hidden;">
+        <div class="skill-icon-wrapper" style="position: relative; margin-bottom: 20px;">
+          <div class="skill-icon-bg" style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #4FC08D 0%, #42B883 100%); display: flex; align-items: center; justify-content: center; position: relative; animation: rotate 12s linear infinite;">
+            <i class="fab fa-vuejs" style="font-size: 2.5rem; color: white;"></i>
+          </div>
+          <div class="skill-orbit-ring" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; border: 2px dashed rgba(79,192,141,0.3); border-radius: 50%; animation: rotate-reverse 18s linear infinite;"></div>
+        </div>
+        <h3 style="color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">Vue.js</h3>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 15px;">Progressive Framework</p>
+        <div class="skill-level" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+          <div style="width: 88%; height: 100%; background: linear-gradient(90deg, #4FC08D, #42B883); border-radius: 3px; animation: fill-bar 2s ease-out 0.2s both;"></div>
+        </div>
+      </div>
+
+      <div class="skill-orbit" style="position: relative; background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(10px); overflow: hidden;">
+        <div class="skill-icon-wrapper" style="position: relative; margin-bottom: 20px;">
+          <div class="skill-icon-bg" style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #F7DF1E 0%, #FFED4E 100%); display: flex; align-items: center; justify-content: center; position: relative; animation: rotate 8s linear infinite;">
+            <i class="fab fa-js-square" style="font-size: 2.5rem; color: #333;"></i>
+          </div>
+          <div class="skill-orbit-ring" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; border: 2px dashed rgba(247,223,30,0.3); border-radius: 50%; animation: rotate-reverse 12s linear infinite;"></div>
+        </div>
+        <h3 style="color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">JavaScript</h3>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 15px;">ES6+ & Modern JS</p>
+        <div class="skill-level" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+          <div style="width: 92%; height: 100%; background: linear-gradient(90deg, #F7DF1E, #FFED4E); border-radius: 3px; animation: fill-bar 2s ease-out 0.4s both;"></div>
+        </div>
+      </div>
+
+      <!-- Backend Technologies -->
+      <div class="skill-orbit" style="position: relative; background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(10px); overflow: hidden;">
+        <div class="skill-icon-wrapper" style="position: relative; margin-bottom: 20px;">
+          <div class="skill-icon-bg" style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #777BB4 0%, #A561C2 100%); display: flex; align-items: center; justify-content: center; position: relative; animation: rotate 14s linear infinite;">
+            <i class="fab fa-php" style="font-size: 2.5rem; color: white;"></i>
+          </div>
+          <div class="skill-orbit-ring" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; border: 2px dashed rgba(119,123,180,0.3); border-radius: 50%; animation: rotate-reverse 20s linear infinite;"></div>
+        </div>
+        <h3 style="color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">PHP</h3>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 15px;">Server-side Language</p>
+        <div class="skill-level" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+          <div style="width: 90%; height: 100%; background: linear-gradient(90deg, #777BB4, #A561C2); border-radius: 3px; animation: fill-bar 2s ease-out 0.6s both;"></div>
+        </div>
+      </div>
+
+      <div class="skill-orbit" style="position: relative; background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(10px); overflow: hidden;">
+        <div class="skill-icon-wrapper" style="position: relative; margin-bottom: 20px;">
+          <div class="skill-icon-bg" style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #FF2D20 0%, #FF6B6B 100%); display: flex; align-items: center; justify-content: center; position: relative; animation: rotate 11s linear infinite;">
+            <i class="fab fa-laravel" style="font-size: 2.5rem; color: white;"></i>
+          </div>
+          <div class="skill-orbit-ring" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; border: 2px dashed rgba(255,45,32,0.3); border-radius: 50%; animation: rotate-reverse 16s linear infinite;"></div>
+        </div>
+        <h3 style="color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">Laravel</h3>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 15px;">PHP Framework</p>
+        <div class="skill-level" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+          <div style="width: 85%; height: 100%; background: linear-gradient(90deg, #FF2D20, #FF6B6B); border-radius: 3px; animation: fill-bar 2s ease-out 0.8s both;"></div>
+        </div>
+      </div>
+
+      <div class="skill-orbit" style="position: relative; background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(10px); overflow: hidden;">
+        <div class="skill-icon-wrapper" style="position: relative; margin-bottom: 20px;">
+          <div class="skill-icon-bg" style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #68A063 0%, #8CC84B 100%); display: flex; align-items: center; justify-content: center; position: relative; animation: rotate 13s linear infinite;">
+            <i class="fab fa-node-js" style="font-size: 2.5rem; color: white;"></i>
+          </div>
+          <div class="skill-orbit-ring" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; border: 2px dashed rgba(104,160,99,0.3); border-radius: 50%; animation: rotate-reverse 17s linear infinite;"></div>
+        </div>
+        <h3 style="color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">Node.js</h3>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 15px;">Runtime Environment</p>
+        <div class="skill-level" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+          <div style="width: 78%; height: 100%; background: linear-gradient(90deg, #68A063, #8CC84B); border-radius: 3px; animation: fill-bar 2s ease-out 1s both;"></div>
+        </div>
+      </div>
+
+      <!-- Database & Tools -->
+      <div class="skill-orbit" style="position: relative; background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(10px); overflow: hidden;">
+        <div class="skill-icon-wrapper" style="position: relative; margin-bottom: 20px;">
+          <div class="skill-icon-bg" style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #00758F 0%, #0288D1 100%); display: flex; align-items: center; justify-content: center; position: relative; animation: rotate 9s linear infinite;">
+            <i class="fas fa-database" style="font-size: 2.5rem; color: white;"></i>
+          </div>
+          <div class="skill-orbit-ring" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; border: 2px dashed rgba(0,117,143,0.3); border-radius: 50%; animation: rotate-reverse 14s linear infinite;"></div>
+        </div>
+        <h3 style="color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">MySQL</h3>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 15px;">Database Management</p>
+        <div class="skill-level" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+          <div style="width: 87%; height: 100%; background: linear-gradient(90deg, #00758F, #0288D1); border-radius: 3px; animation: fill-bar 2s ease-out 1.2s both;"></div>
+        </div>
+      </div>
+
+      <div class="skill-orbit" style="position: relative; background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(10px); overflow: hidden;">
+        <div class="skill-icon-wrapper" style="position: relative; margin-bottom: 20px;">
+          <div class="skill-icon-bg" style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%); display: flex; align-items: center; justify-content: center; position: relative; animation: rotate 15s linear infinite;">
+            <i class="fas fa-palette" style="font-size: 2.5rem; color: white;"></i>
+          </div>
+          <div class="skill-orbit-ring" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; border: 2px dashed rgba(255,107,107,0.3); border-radius: 50%; animation: rotate-reverse 19s linear infinite;"></div>
+        </div>
+        <h3 style="color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">UI/UX Design</h3>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 15px;">User Experience</p>
+        <div class="skill-level" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+          <div style="width: 93%; height: 100%; background: linear-gradient(90deg, #FF6B6B, #FF8E8E); border-radius: 3px; animation: fill-bar 2s ease-out 1.4s both;"></div>
+        </div>
+      </div>
+
+      <div class="skill-orbit" style="position: relative; background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); backdrop-filter: blur(10px); overflow: hidden;">
+        <div class="skill-icon-wrapper" style="position: relative; margin-bottom: 20px;">
+          <div class="skill-icon-bg" style="width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; background: linear-gradient(135deg, #FF9500 0%, #FFAB00 100%); display: flex; align-items: center; justify-content: center; position: relative; animation: rotate 16s linear infinite;">
+            <i class="fab fa-aws" style="font-size: 2.5rem; color: white;"></i>
+          </div>
+          <div class="skill-orbit-ring" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 100px; border: 2px dashed rgba(255,149,0,0.3); border-radius: 50%; animation: rotate-reverse 21s linear infinite;"></div>
+        </div>
+        <h3 style="color: white; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">AWS</h3>
+        <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 15px;">Cloud Services</p>
+        <div class="skill-level" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden;">
+          <div style="width: 75%; height: 100%; background: linear-gradient(90deg, #FF9500, #FFAB00); border-radius: 3px; animation: fill-bar 2s ease-out 1.6s both;"></div>
+        </div>
+      </div>
+      
     </div>
-    <div class="skill-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
-      <h4>JavaScript</h4>
+
+    <!-- Epic Stats Section -->
+    <div style="margin-top: 80px; text-align: center;">
+      <div style="display: flex; justify-content: center; gap: 60px; flex-wrap: wrap;">
+        <div class="stat-item" style="text-align: center; position: relative;">
+          <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, #6C63FF, #8a2be2); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; position: relative; animation: pulse-scale 3s ease-in-out infinite;">
+            <span style="color: white; font-size: 2.5rem; font-weight: 900;">5+</span>
+            <div style="position: absolute; width: 140px; height: 140px; border: 2px solid rgba(108,99,255,0.3); border-radius: 50%; animation: rotate 20s linear infinite;"></div>
+          </div>
+          <h4 style="color: white; font-size: 1.2rem; font-weight: 700; margin-bottom: 5px;">Years Experience</h4>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">Professional Development</p>
+        </div>
+        
+        <div class="stat-item" style="text-align: center; position: relative;">
+          <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, #FF6B6B, #FF8E8E); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; position: relative; animation: pulse-scale 3s ease-in-out infinite 1s;">
+            <span style="color: white; font-size: 2.5rem; font-weight: 900;">50+</span>
+            <div style="position: absolute; width: 140px; height: 140px; border: 2px solid rgba(255,107,107,0.3); border-radius: 50%; animation: rotate 25s linear infinite;"></div>
+          </div>
+          <h4 style="color: white; font-size: 1.2rem; font-weight: 700; margin-bottom: 5px;">Projects Delivered</h4>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">Successful Launches</p>
+        </div>
+        
+        <div class="stat-item" style="text-align: center; position: relative;">
+          <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, #4FC08D, #42B883); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; position: relative; animation: pulse-scale 3s ease-in-out infinite 2s;">
+            <span style="color: white; font-size: 2.5rem; font-weight: 900;">98%</span>
+            <div style="position: absolute; width: 140px; height: 140px; border: 2px solid rgba(79,192,141,0.3); border-radius: 50%; animation: rotate 30s linear infinite;"></div>
+          </div>
+          <h4 style="color: white; font-size: 1.2rem; font-weight: 700; margin-bottom: 5px;">Client Satisfaction</h4>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">Happy Clients</p>
+        </div>
+      </div>
     </div>
-    <div class="skill-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Excel">
-      <h4>Excel</h4>
-    </div>
-    <div class="skill-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
-      <h4>GitHub</h4>
-    </div>
-    <!-- Add more skills as needed -->
   </div>
 </section>
+
+<!-- Revolutionary CSS Animations -->
+<style>
+/* Floating particles */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
+  25% { transform: translateY(-20px) rotate(90deg); opacity: 0.8; }
+  50% { transform: translateY(-40px) rotate(180deg); opacity: 1; }
+  75% { transform: translateY(-20px) rotate(270deg); opacity: 0.8; }
+}
+
+/* Rotating orbits */
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rotate-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+/* Glowing pulse */
+@keyframes pulse-glow {
+  0%, 100% { 
+    box-shadow: 0 0 20px rgba(108,99,255,0.5), 0 0 40px rgba(138,43,226,0.3);
+    transform: scaleX(1);
+  }
+  50% { 
+    box-shadow: 0 0 30px rgba(108,99,255,0.8), 0 0 60px rgba(138,43,226,0.5);
+    transform: scaleX(1.1);
+  }
+}
+
+/* Skill bar fill animation */
+@keyframes fill-bar {
+  from { width: 0%; }
+  to { width: var(--fill-width, 100%); }
+}
+
+/* Epic hover effects */
+.skill-orbit:hover {
+  transform: translateY(-15px) scale(1.05);
+  background: linear-gradient(145deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1)) !important;
+  border: 1px solid rgba(108,99,255,0.5) !important;
+  box-shadow: 
+    0 20px 60px rgba(108,99,255,0.3),
+    0 0 0 1px rgba(108,99,255,0.1),
+    inset 0 1px 0 rgba(255,255,255,0.2) !important;
+}
+
+.skill-orbit:hover .skill-icon-bg {
+  transform: scale(1.1) !important;
+  filter: brightness(1.2) !important;
+  box-shadow: 
+    0 0 30px rgba(108,99,255,0.4),
+    0 0 60px rgba(138,43,226,0.2) !important;
+}
+
+.skill-orbit:hover .skill-orbit-ring {
+  border-color: rgba(108,99,255,0.8) !important;
+  animation-duration: 2s !important;
+}
+
+.skill-orbit:hover h3 {
+  color: #6C63FF !important;
+  text-shadow: 0 0 10px rgba(108,99,255,0.5) !important;
+}
+
+/* Magical background gradient */
+.skill-orbit::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent, rgba(108,99,255,0.1), transparent);
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.skill-orbit:hover::before {
+  opacity: 1;
+}
+
+/* Pulse scale animation */
+@keyframes pulse-scale {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* 3D tilt effect */
+.skill-orbit {
+  transform-style: preserve-3d;
+}
+
+.skill-orbit:hover {
+  transform: translateY(-15px) scale(1.05) rotateX(5deg) rotateY(5deg);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .skills-universe {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)) !important;
+    gap: 20px !important;
+  }
+  
+  .skill-orbit {
+    padding: 20px 15px !important;
+  }
+  
+  .skill-icon-bg {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  
+  .skill-icon-bg i {
+    font-size: 2rem !important;
+  }
+  
+  .skills-header h2 {
+    font-size: 2.5rem !important;
+  }
+}
+</style>
 
  <!-- Projects Section -->
 <section class="projects-section" id="projects">
@@ -483,25 +1056,6 @@
               Contributed to improving website performance and user experience
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Skills Summary -->
-    <div style="text-align: center; margin-top: 80px;">
-      <div style="background: #fff; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(108,99,255,0.1); display: inline-block;">
-        <h3 style="font-size: 1.5rem; font-weight: 700; color: #222; margin-bottom: 25px;">Core Technologies & Skills</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; max-width: 600px;">
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">Laravel</span>
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">React.js</span>
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">Vue.js</span>
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">PHP</span>
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">JavaScript</span>
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">UI/UX Design</span>
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">MySQL</span>
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">Docker</span>
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">Git</span>
-          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">AWS</span>
         </div>
       </div>
     </div>
