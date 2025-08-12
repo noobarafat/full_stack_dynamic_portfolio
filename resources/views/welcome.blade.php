@@ -318,97 +318,191 @@
   </div>
 </section>
 
-
 <!-- My services -->
-<section id="services" class="services-section">
-  <div class="services-header">
-    <h2>My Services</h2>
-    <p>What I can do for you, with heart and skills ✨</p>
+<section>
+  <div class="services-grid" style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <!-- Service Card 1 -->
+  <div class="service-card" style="background-color: #fff; padding: 20px; margin: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <div class="service-icon" style="text-align: center; margin-bottom: 20px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Design" style="width: 50px; height: 50px;">
+    </div>
+    <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">UI/UX Design</h3>
+    <p style="font-size: 16px; color: #666;">Crafting intuitive and visually stunning user experiences that drive engagement and conversion.</p>
   </div>
-  <div class="services-grid">
-    <!-- Service Card 1 -->
-    <div class="service-card">
-      <div class="service-icon">
-        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Design">
-      </div>
-      <h3>UI/UX Design</h3>
-      <p>Beautiful, user-friendly designs using Figma & Adobe tools.</p>
+  <!-- Service Card 2 -->
+  <div class="service-card" style="background-color: #fff; padding: 20px; margin: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <div class="service-icon" style="text-align: center; margin-bottom: 20px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/2920/2920331.png" alt="Development" style="width: 50px; height: 50px;">
     </div>
-    <!-- Service Card 2 -->
-    <div class="service-card">
-      <div class="service-icon">
-        <img src="https://cdn-icons-png.flaticon.com/512/270/270798.png" alt="Development">
-      </div>
-      <h3>Web Development</h3>
-      <p>Front-end development with HTML, CSS, JS & responsive layouts.</p>
-    </div>
-    <!-- Service Card 3 -->
-    <div class="service-card">
-      <div class="service-icon">
-        <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Presentation">
-      </div>
-      <h3>Presentation Design</h3>
-      <p>Eye-catching slides & pitch decks that impress instantly.</p>
-    </div>
-    <!-- Service Card 4 -->
-    <div class="service-card">
-      <div class="service-icon">
-        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Content">
-      </div>
-      <h3>Content Writing</h3>
-      <p>SEO-friendly blog & website content tailored for your audience.</p>
-    </div>
+    <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Web Development</h3>
+    <p style="font-size: 16px; color: #666;">Building fast, secure, and scalable web applications that meet your business objectives.</p>
   </div>
+  <!-- Service Card 3 -->
+  <div class="service-card" style="background-color: #fff; padding: 20px; margin: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <div class="service-icon" style="text-align: center; margin-bottom: 20px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Branding" style="width: 50px; height: 50px;">
+    </div>
+    <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Digital Branding</h3>
+    <p style="font-size: 16px; color: #666;">Developing and implementing comprehensive digital branding strategies that elevate your online presence.</p>
+  </div>
+  <!-- Service Card 4 -->
+  <div class="service-card" style="background-color: #fff; padding: 20px; margin: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <div class="service-icon" style="text-align: center; margin-bottom: 20px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/2920/2920331.png" alt="Marketing" style="width: 50px; height: 50px;">
+    </div>
+    <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Digital Marketing</h3>
+    <p style="font-size: 16px; color: #666;">Developing and executing comprehensive digital marketing strategies that drive traffic and conversions.</p>
+  </div>
+</div>
 </section>
 
 
+
 <!-- Work Experience -->
-<section id="experience" class="experience-section">
-  <div class="experience-header">
-    <h2>Work Experience</h2>
-    <p>My professional journey so far 🚀</p>
-  </div>
-  <div class="timeline">
-    <!-- Timeline Item 1 -->
-    <div class="timeline-item">
-      <div class="timeline-marker"></div>
-      <div class="timeline-content">
-        <span class="timeline-date">2023 - Present</span>
-        <h3>Lead UI/UX Designer</h3>
-        <h4>Creative Studio, Dhaka</h4>
-        <ul class="timeline-list">
-          <li>Leading a team of designers for web and mobile projects</li>
-          <li>Collaborating with developers and clients</li>
-          <li>Delivering user-centric, high-impact solutions</li>
-        </ul>
+<section id="experience" class="experience-section" style="background: linear-gradient(135deg, #f8f9ff 0%, #e6e9ff 100%); padding: 80px 0;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+    <div class="experience-header" style="text-align: center; margin-bottom: 60px;">
+      <h2 style="font-size: 2.8rem; font-weight: 900; color: #222; margin-bottom: 15px; letter-spacing: -1px;">
+        Professional <span style="color: #6C63FF; background: linear-gradient(90deg,#6C63FF,#8a2be2); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Experience</span>
+      </h2>
+      <p style="font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto; line-height: 1.6;">
+        My journey through various roles and organizations, building expertise in design and development
+      </p>
+    </div>
+    
+    <div class="timeline" style="position: relative; max-width: 900px; margin: 0 auto;">
+      <!-- Timeline Line -->
+      <div style="position: absolute; left: 50%; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, #6C63FF, #8a2be2); transform: translateX(-50%); border-radius: 3px;"></div>
+      
+      <!-- Timeline Item 1 -->
+      <div class="timeline-item" style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 60px; position: relative;">
+        <div class="timeline-marker" style="position: absolute; left: 50%; top: 30px; width: 20px; height: 20px; background: linear-gradient(135deg, #6C63FF, #8a2be2); border-radius: 50%; transform: translateX(-50%); border: 4px solid #fff; box-shadow: 0 4px 15px rgba(108,99,255,0.3); z-index: 2;"></div>
+        <div class="timeline-content" style="background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 8px 30px rgba(108,99,255,0.1); width: 45%; margin-right: 5%; position: relative; border-left: 4px solid #6C63FF;">
+          <span class="timeline-date" style="display: inline-block; background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 15px;">2023 - Present</span>
+          <h3 style="font-size: 1.5rem; font-weight: 700; color: #222; margin-bottom: 8px;">Senior UI/UX Designer</h3>
+          <h4 style="font-size: 1.1rem; color: #6C63FF; margin-bottom: 20px; font-weight: 600;">TechCorp Solutions, Dhaka</h4>
+          <ul class="timeline-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Led design strategy for 15+ enterprise-level web applications
+            </li>
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Mentored a team of 8 junior designers and developers
+            </li>
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Increased user engagement by 45% through innovative UX solutions
+            </li>
+            <li style="position: relative; padding-left: 25px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Collaborated with Fortune 500 clients on digital transformation projects
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Timeline Item 2 -->
+      <div class="timeline-item" style="display: flex; justify-content: flex-start; width: 100%; margin-bottom: 60px; position: relative;">
+        <div class="timeline-marker" style="position: absolute; left: 50%; top: 30px; width: 20px; height: 20px; background: linear-gradient(135deg, #6C63FF, #8a2be2); border-radius: 50%; transform: translateX(-50%); border: 4px solid #fff; box-shadow: 0 4px 15px rgba(108,99,255,0.3); z-index: 2;"></div>
+        <div class="timeline-content" style="background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 8px 30px rgba(108,99,255,0.1); width: 45%; margin-left: 5%; position: relative; border-right: 4px solid #6C63FF;">
+          <span class="timeline-date" style="display: inline-block; background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 15px;">2021 - 2023</span>
+          <h3 style="font-size: 1.5rem; font-weight: 700; color: #222; margin-bottom: 8px;">Full Stack Developer</h3>
+          <h4 style="font-size: 1.1rem; color: #6C63FF; margin-bottom: 20px; font-weight: 600;">WebCraft Technologies</h4>
+          <ul class="timeline-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Developed 25+ responsive web applications using Laravel, React & Vue.js
+            </li>
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Implemented modern CI/CD pipelines reducing deployment time by 60%
+            </li>
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Optimized database performance achieving 40% faster load times
+            </li>
+            <li style="position: relative; padding-left: 25px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Built RESTful APIs serving 10K+ daily active users
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Timeline Item 3 -->
+      <div class="timeline-item" style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 60px; position: relative;">
+        <div class="timeline-marker" style="position: absolute; left: 50%; top: 30px; width: 20px; height: 20px; background: linear-gradient(135deg, #6C63FF, #8a2be2); border-radius: 50%; transform: translateX(-50%); border: 4px solid #fff; box-shadow: 0 4px 15px rgba(108,99,255,0.3); z-index: 2;"></div>
+        <div class="timeline-content" style="background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 8px 30px rgba(108,99,255,0.1); width: 45%; margin-right: 5%; position: relative; border-left: 4px solid #6C63FF;">
+          <span class="timeline-date" style="display: inline-block; background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 15px;">2020 - 2021</span>
+          <h3 style="font-size: 1.5rem; font-weight: 700; color: #222; margin-bottom: 8px;">Frontend Developer</h3>
+          <h4 style="font-size: 1.1rem; color: #6C63FF; margin-bottom: 20px; font-weight: 600;">Freelance & Contract Work</h4>
+          <ul class="timeline-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Delivered 30+ custom websites for international clients
+            </li>
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Specialized in e-commerce solutions using Shopify and WooCommerce
+            </li>
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Achieved 98% client satisfaction rate with on-time delivery
+            </li>
+            <li style="position: relative; padding-left: 25px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Built responsive designs with mobile-first approach
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Timeline Item 4 -->
+      <div class="timeline-item" style="display: flex; justify-content: flex-start; width: 100%; position: relative;">
+        <div class="timeline-marker" style="position: absolute; left: 50%; top: 30px; width: 20px; height: 20px; background: linear-gradient(135deg, #6C63FF, #8a2be2); border-radius: 50%; transform: translateX(-50%); border: 4px solid #fff; box-shadow: 0 4px 15px rgba(108,99,255,0.3); z-index: 2;"></div>
+        <div class="timeline-content" style="background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 8px 30px rgba(108,99,255,0.1); width: 45%; margin-left: 5%; position: relative; border-right: 4px solid #6C63FF;">
+          <span class="timeline-date" style="display: inline-block; background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 15px;">2019 - 2020</span>
+          <h3 style="font-size: 1.5rem; font-weight: 700; color: #222; margin-bottom: 8px;">Junior Web Developer</h3>
+          <h4 style="font-size: 1.1rem; color: #6C63FF; margin-bottom: 20px; font-weight: 600;">Digital Dreams Agency</h4>
+          <ul class="timeline-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Assisted in developing corporate websites and landing pages
+            </li>
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Learned modern web technologies including HTML5, CSS3, and JavaScript
+            </li>
+            <li style="position: relative; padding-left: 25px; margin-bottom: 12px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Collaborated with senior developers on team projects
+            </li>
+            <li style="position: relative; padding-left: 25px; color: #555; line-height: 1.6;">
+              <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 2px; color: #6C63FF;"></i>
+              Contributed to improving website performance and user experience
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <!-- Timeline Item 2 -->
-    <div class="timeline-item">
-      <div class="timeline-marker"></div>
-      <div class="timeline-content">
-        <span class="timeline-date">2021 - 2023</span>
-        <h3>Front-end Developer</h3>
-        <h4>Webify Solutions</h4>
-        <ul class="timeline-list">
-          <li>Developed responsive websites and dashboards</li>
-          <li>Worked with React, Vue, and modern CSS</li>
-          <li>Optimized UI for speed and accessibility</li>
-        </ul>
-      </div>
-    </div>
-    <!-- Timeline Item 3 -->
-    <div class="timeline-item">
-      <div class="timeline-marker"></div>
-      <div class="timeline-content">
-        <span class="timeline-date">2020 - 2021</span>
-        <h3>Junior Web Designer</h3>
-        <h4>Freelance</h4>
-        <ul class="timeline-list">
-          <li>Designed landing pages and portfolios</li>
-          <li>Built e-commerce sites for global clients</li>
-          <li>Focused on clean, modern layouts</li>
-        </ul>
+    
+    <!-- Skills Summary -->
+    <div style="text-align: center; margin-top: 80px;">
+      <div style="background: #fff; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(108,99,255,0.1); display: inline-block;">
+        <h3 style="font-size: 1.5rem; font-weight: 700; color: #222; margin-bottom: 25px;">Core Technologies & Skills</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; max-width: 600px;">
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">Laravel</span>
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">React.js</span>
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">Vue.js</span>
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">PHP</span>
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">JavaScript</span>
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">UI/UX Design</span>
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">MySQL</span>
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">Docker</span>
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">Git</span>
+          <span style="background: linear-gradient(90deg, #6C63FF, #8a2be2); color: #fff; padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; font-weight: 600;">AWS</span>
+        </div>
       </div>
     </div>
   </div>
