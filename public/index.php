@@ -1,5 +1,43 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| COMPREHENSIVE ERROR SUPPRESSION FOR DEPRECATION WARNINGS
+|--------------------------------------------------------------------------
+| Multiple approaches to ensure deprecation warnings are suppressed
+*/
+
+// Method 1: Direct error reporting configuration
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
+ini_set('display_errors', '1');
+ini_set('log_errors', '1');
+
+// Method 2: Custom error handler
+set_error_handler(function($errno, $errstr, $errfile, $errline) {
+    // Suppress deprecation warnings completely
+    if ($errno === E_DEPRECATED || $errno === E_USER_DEPRECATED) {
+        return true; // Don't execute PHP internal error handler
+    }
+    return false; // Let PHP handle other errors normally
+}, E_ALL);
+
+// Method 3: Output buffering to catch and filter any remaining deprecation warnings
+ob_start(function($buffer) {
+    // Remove any deprecation warning text from output
+    $patterns = [
+        '/Deprecated:.*?in.*?on line \d+\s*/',
+        '/\bDeprecated\b.*?$/m',
+    ];
+    return preg_replace($patterns, '', $buffer);
+});
+
+/*
+|--------------------------------------------------------------------------
+| Include Error Suppression Configuration
+|--------------------------------------------------------------------------
+*/
+require_once __DIR__.'/../config/error_suppress.php';
+
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 

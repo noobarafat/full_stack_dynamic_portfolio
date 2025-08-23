@@ -1,0 +1,743 @@
+/* ==============================
+   EXPERTISE AREA SECTION STYLING
+   ============================== */
+
+/* Main Expertise Area Section */
+.expertise-area {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 30%, #f093fb 70%, #f5576c 100%);
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Pattern Overlay */
+.expertise-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(255,255,255,0.08) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255,255,255,0.05) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+/* Container Styling */
+.expertise-area .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 24px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Section Header */
+.expertise-area h2 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.expertise-area h2 span {
+    background: linear-gradient(45deg, #fbbf24, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+}
+
+/* Cards Grid - Force all 4 cards in one row */
+.expertise-area .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+    min-height: 200px;
+}
+
+/* Individual Card Styling */
+.expertise-card {
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 
+        0 10px 30px rgba(0, 0, 0, 0.1),
+        0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 280px;
+}
+
+/* Card Hover Effects - Reduced Animation */
+.expertise-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.15),
+        0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Border Animation */
+.expertise-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    border-radius: 20px 20px 0 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+.expertise-card:hover::before {
+    transform: scaleX(1);
+}
+
+/* Card Specific Colors */
+.expertise-card:nth-child(1)::before {
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+}
+
+.expertise-card:nth-child(2)::before {
+    background: linear-gradient(90deg, #ec4899, #f43f5e);
+}
+
+.expertise-card:nth-child(3)::before {
+    background: linear-gradient(90deg, #06b6d4, #0891b2);
+}
+
+.expertise-card:nth-child(4)::before {
+    background: linear-gradient(90deg, #10b981, #059669);
+}
+
+/* Icon Container - Hidden */
+.expertise-card .icon-container {
+    display: none;
+}
+
+/* Card Content Wrapper */
+.expertise-card .card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Icon Container Backgrounds */
+.expertise-card:nth-child(1) .icon-container {
+    background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+}
+
+.expertise-card:nth-child(2) .icon-container {
+    background: linear-gradient(135deg, #fdf2f8, #fce7f3);
+}
+
+.expertise-card:nth-child(3) .icon-container {
+    background: linear-gradient(135deg, #ecfeff, #cffafe);
+}
+
+.expertise-card:nth-child(4) .icon-container {
+    background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+}
+
+/* Icons */
+.expertise-card .icon-container i {
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.expertise-card:nth-child(1) .icon-container i {
+    color: #6366f1;
+}
+
+.expertise-card:nth-child(2) .icon-container i {
+    color: #ec4899;
+}
+
+.expertise-card:nth-child(3) .icon-container i {
+    color: #06b6d4;
+}
+
+.expertise-card:nth-child(4) .icon-container i {
+    color: #10b981;
+}
+
+.expertise-card:hover .icon-container i {
+    transform: scale(1.1);
+}
+
+/* Card Titles */
+.expertise-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+    letter-spacing: -0.3px;
+}
+
+.expertise-card:hover h3 {
+    color: #0f172a;
+}
+
+/* Card Descriptions */
+.expertise-card p {
+    color: #64748b;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    transition: all 0.3s ease;
+    flex-grow: 1;
+    text-align: left;
+    hyphens: auto;
+    word-wrap: break-word;
+}
+
+.expertise-card:hover p {
+    color: #475569;
+}
+
+/* Card Button */
+.card-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+    color: white;
+    padding: 10px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    margin-top: auto;
+    align-self: center;
+}
+
+.card-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+    color: white;
+    text-decoration: none;
+}
+
+/* Hire Me Button */
+.hire-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: #1e293b;
+    padding: 18px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-shadow: 
+        0 8px 25px rgba(251, 191, 36, 0.3),
+        0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.hire-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 
+        0 15px 35px rgba(251, 191, 36, 0.4),
+        0 8px 25px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+}
+
+.hire-btn i {
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.hire-btn:hover i {
+    transform: rotate(10deg);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .expertise-area .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .expertise-area h2 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .expertise-area {
+        padding: 35px 0;
+    }
+    
+    .expertise-area .cards-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .expertise-area h2 {
+        font-size: 2.3rem;
+    }
+    
+    .expertise-card {
+        padding: 25px 20px;
+    }
+    
+    .hire-btn {
+        padding: 16px 30px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .expertise-area h2 {
+        font-size: 2rem;
+    }
+    
+    .expertise-card h3 {
+        font-size: 1.3rem;
+    }
+    
+    .expertise-card p {
+        font-size: 0.9rem;
+    }
+}
+
+/* ==============================
+   MODERN MINIMALISTIC EXPERIENCE SECTION
+   ============================== */
+
+/* Experience Section */
+.experience-section {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    padding: 80px 0;
+    position: relative;
+}
+
+.experience-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Experience Header */
+.experience-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(99, 102, 241, 0.1);
+    color: #6366f1;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    transition: all 0.3s ease;
+}
+
+.section-badge:hover {
+    background: rgba(99, 102, 241, 0.15);
+    transform: translateY(-2px);
+}
+
+.experience-header h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #1e293b;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+}
+
+.experience-header p {
+    font-size: 1.2rem;
+    color: #64748b;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Experience Grid */
+.experience-grid {
+    display: grid;
+    gap: 32px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Experience Cards */
+.experience-card {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    border-color: rgba(99, 102, 241, 0.2);
+}
+
+/* Card Header */
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.icon-wrapper {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.icon-wrapper:hover {
+    transform: scale(1.05);
+}
+
+.icon-wrapper.blue {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+}
+
+.icon-wrapper.orange {
+    background: linear-gradient(135deg, #f59e0b, #f97316);
+    color: white;
+}
+
+.icon-wrapper.green {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+}
+
+.card-info {
+    flex: 1;
+}
+
+.badge-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.role-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: white;
+    transition: transform 0.2s ease;
+}
+
+.role-badge:hover {
+    transform: scale(1.05);
+}
+
+.role-badge.blue {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+
+.role-badge.orange {
+    background: linear-gradient(135deg, #f59e0b, #f97316);
+}
+
+.role-badge.green {
+    background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.date {
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.card-info h3 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #1e293b;
+    margin-bottom: 6px;
+    line-height: 1.2;
+}
+
+.company {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.company.blue {
+    color: #6366f1;
+}
+
+.company.orange {
+    color: #f59e0b;
+}
+
+.company.green {
+    color: #10b981;
+}
+
+/* Card Description */
+.card-description {
+    margin-bottom: 24px;
+}
+
+.card-description p {
+    color: #475569;
+    line-height: 1.7;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Achievement Stats */
+.achievement-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.stat {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.stat:hover {
+    background: #f1f5f9;
+    transform: translateY(-2px);
+}
+
+.stat-number {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #f59e0b;
+    margin-bottom: 4px;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: #64748b;
+    font-weight: 600;
+}
+
+/* Skills Tags */
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+    background: #e2e8f0;
+    transform: translateY(-1px);
+}
+
+/* Mobile Responsiveness for Experience */
+@media (max-width: 768px) {
+    .experience-header h2 {
+        font-size: 2.5rem;
+    }
+    
+    .experience-card {
+        padding: 30px;
+    }
+    
+    .card-header {
+        gap: 16px;
+    }
+    
+    .icon-wrapper {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .card-info h3 {
+        font-size: 1.4rem;
+    }
+    
+    .badge-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-section {
+        padding: 60px 0;
+    }
+    
+    .experience-header h2 {
+        font-size: 2rem;
+    }
+    
+    .experience-header p {
+        font-size: 1.1rem;
+    }
+    
+    .experience-card {
+        padding: 24px;
+    }
+    
+    .achievement-stats {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==============================
+   EDUCATION SECTION ANIMATIONS
+   ============================== */
+
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Slide In Animations */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Gradient Text Animation */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Float Animation for Background Elements */
+@keyframes float {
+    0%, 100% { 
+        transform: translateY(0px) rotate(0deg); 
+        opacity: 0.3; 
+    }
+    25% { 
+        transform: translateY(-20px) rotate(90deg); 
+        opacity: 0.8; 
+    }
+    50% { 
+        transform: translateY(-40px) rotate(180deg); 
+        opacity: 1; 
+    }
+    75% { 
+        transform: translateY(-20px) rotate(270deg); 
+        opacity: 0.8; 
+    }
+}
+
+/* Education Card Hover Effects */
+.education-card:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+.education-card a:hover {
+    color: #4f46e5 !important;
+}
+
+/* Mobile Responsiveness for Education */
+@media (max-width: 768px) {
+    .education-card {
+        padding: 24px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .education-card h3 {
+        font-size: 1.1rem !important;
+    }
+    
+    .education-card h4 {
+        font-size: 1rem !important;
+    }
+    
+    .education-card p {
+        font-size: 0.85rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .education-card {
+        padding: 20px !important;
+    }
+}

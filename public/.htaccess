@@ -5,6 +5,10 @@
 
     RewriteEngine On
 
+    # Suppress PHP Deprecation Warnings
+    php_value error_reporting "E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED"
+    php_flag display_errors On
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]

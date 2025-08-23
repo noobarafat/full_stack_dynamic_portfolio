@@ -46,5 +46,12 @@ class Handler extends ExceptionHandler
         $this->reportable(function (Throwable $e) {
             //
         });
+        
+        // Suppress deprecation warnings in Laravel
+        $this->renderable(function (\ErrorException $e, $request) {
+            if ($e->getSeverity() === E_DEPRECATED || $e->getSeverity() === E_USER_DEPRECATED) {
+                return response('', 200);
+            }
+        });
     }
 }
